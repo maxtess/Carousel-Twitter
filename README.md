@@ -3,6 +3,7 @@ Carousel-Twitter
 
 Gestion simple d'un carrousel en relation avec le bootstrap Twitter.
 
+```php
 /* Configuration */
 $aOptions = array(
     'name'          => 'home',      /* Nom du carousel défini dans l'id de la div global. */
@@ -30,3 +31,4 @@ $('.carousel').carousel({
 
 /* Affichage */
 echo $oCarousel->display();
+```
